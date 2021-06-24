@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/linearLayout1">
+    <TextView
+        android:text="Nome do Responsável:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nomeResponsavel" 
+        android:paddingHorizontal="50px"
+        android:paddingTop="50px"
+        />
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editNomeResponsavel"
+        
+        android:layout_marginHorizontal="50px"/>
+    <TextView
+        android:text="Telefone do Responsável:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/telefoneResponsavel" 
+        android:paddingHorizontal="50px"/>
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50px"
+        android:id="@+id/editTelefoneResponsavel" />
+    <TextView
+        android:text="CPF do Responsável:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="50px"
+        android:id="@+id/cpfResponsavel" />
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50px"
+        android:id="@+id/editCpfResponsavel" />
+    <TextView
+        android:text="Endereço:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="50px"
+        android:id="@+id/endereco" />
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50px"
+        android:id="@+id/editEndereco" />
+    <TextView
+        android:text="Nome do Aluno:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="50px"
+        android:id="@+id/nomeAluno" />
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50px"
+        android:id="@+id/editNomeAluno" />
+    <TextView
+        android:text="Grade do Aluno:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="50px"
+        android:id="@+id/gradeAluno" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50px"
+        android:id="@+id/spnGradeAluno" />
+    <TextView
+        android:text="Sexo do Aluno:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="50px"
+        android:id="@+id/sexoAluno" />
+    <RadioGroup
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="50px"
+        android:id="@+id/rdoSexoAluno">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Feminino"
+            android:layout_marginHorizontal="50px"
+            android:id="@+id/editSexoFeminino" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masculino"
+            android:layout_marginHorizontal="50px"
+            android:id="@+id/editSexoMasculino" />
+    </RadioGroup>
+    <Button
+        android:text="Cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80px"
+        android:id="@+id/btnOK" />
+</LinearLayout>
